@@ -15,7 +15,6 @@ inventory = {
 for item in inventory:
     # decrement item by using an assignment operator (Day 2 Lecture line #130)
     inventory[item] -= 1
-
     print(inventory[item])
     # NOTE: recall that item represents the key of the key:value pair
 

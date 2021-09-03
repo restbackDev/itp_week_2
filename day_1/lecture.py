@@ -31,6 +31,12 @@ my_car = {
   "interest": 22
 }
 
+myo_ther_cars = {
+  "first_car" : {"brand": "ford"},
+  "second_car" : "honda civic",
+  "third_car" : "24"
+}
+
 # Dictionary items are ordered, changeable, and does not allow duplicates.
 
 print(my_car)
@@ -87,7 +93,7 @@ your_car['brand']
 # and of course, by itself, it does nothing
 # so we want to assign it to a variable
 
-your_car_brand = your_car['brand']
+your_car_brand = your_car['brand'] #print(your_car_brand) will print 'Toyota' == #line 81
 
 # why do we assign a variable from the dictionary
 # Instead of just typing out the string again?
@@ -161,7 +167,7 @@ car['year'] = 2019
 
 # The argument must be a dictionary, or an iterable object with key:value pairs.
 
-car.update({"year": 2020})
+car.update({"year": 2020}) #u ---> use ,update exiting key like ex: "year" : 2020
 
 # Adding Items
 # Adding an item to the dictionary is done by using a new index key and assigning a value to it:
